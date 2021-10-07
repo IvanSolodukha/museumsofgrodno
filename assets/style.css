@@ -1,0 +1,115 @@
+body {
+    font-size: 0.5vw;
+    font-family: 'Courier New', Bold;
+    margin: 0;
+    line-height: 1.6;
+}
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    background: url("../assets/img/background.png") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    right: 0;
+    left: 0;
+}
+
+.container {
+    border: solid 2px black;
+    background-size: cover;
+    background: #4c4c4c;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 100vw;
+    height: 11vh;
+    z-index: 1000;
+}
+
+.logo {
+    position: fixed;
+    top: 1.5vh;
+    left: 2vw;
+    height: 8vh;
+    width: 8vw;
+}
+
+.navigator {
+    font-size: 4vh;
+    font-family: Impact;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    display: inline-block;
+    margin: 1% 0.1%;
+    margin-right: 12%;
+    white-space: pre;
+    float: right;
+}
+.navuse {
+    font-size: 4vh;
+    font-family: Impact;
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s linear;
+    display: inline-block;
+    margin: 1% 0.1%;
+    margin-right: 12%;
+    white-space: pre;
+    float: right;
+}
+
+.navuse:hover {
+    color: #77b3d4;
+}
+
+.navigator:hover {
+    color: #77b3d4;
+}
+
+.logo:hover {
+    display: block;
+    padding: 4px; 
+    text-decoration: none;
+    border-bottom: none; 
+}
+
+.videocontainer {
+    display: block;
+    border: solid 2px #4c4c4c;
+    border-radius: 15%;
+    background: #4c4c4c;
+    position: absolute;
+    top: 9vw;
+    width: 70vw;
+    height: 79vh;
+    left: 15vw;
+    opacity: 0.9;
+    transition: opacity 0.4s linear;
+}
+
+.videocontainer:hover {
+    opacity: 1;
+}
+
+.videotitle {
+    font-size: 1.5vw;
+    font-family: Tahoma;
+    color: white;
+}
+
+.videotitleb {
+    font-size: 1.5vw;
+    font-family: Tahoma;
+    color: #77b3d4;
+}
+
+.iframe {
+    width: 60vw;
+    height: 60vh;
+}
