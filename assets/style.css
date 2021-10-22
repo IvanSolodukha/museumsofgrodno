@@ -10,6 +10,7 @@ body {
 
 .main {
     background: url("../assets/img/background.png") center;
+    overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -21,12 +22,13 @@ body {
 
 .container {
     border: solid 2px black;
+    border-radius: 6px;
     background-size: cover;
     background: #4c4c4c;
     position: fixed;
-    margin: 0;
+    margin-left: 3vw;
     top: 0;
-    width: 100vw;
+    width: 94vw;
     height: 11vh;
     z-index: 1000;
 }
@@ -34,7 +36,7 @@ body {
 .logo {
     position: fixed;
     top: 1.5vh;
-    left: 2vw;
+    left: 4vw;
     height: 8vh;
     width: 8vw;
 }
@@ -81,7 +83,7 @@ body {
 
 .videocontainer {
     display: block;
-    border: solid 2px #4c4c4c;
+    border: solid 2px black;
     border-radius: 15%;
     background: #4c4c4c;
     position: absolute;
@@ -113,3 +115,4 @@ body {
     width: 60vw;
     height: 60vh;
 }
+

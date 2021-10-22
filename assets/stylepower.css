@@ -21,12 +21,13 @@ body {
 
 .container {
     border: solid 2px black;
+    border-radius: 6px;
     background-size: cover;
     background: #4c4c4c;
     position: fixed;
-    margin: 0;
+    margin-left: 3vw;
     top: 0;
-    width: 100vw;
+    width: 94vw;
     height: 11vh;
     z-index: 1000;
 }
@@ -34,7 +35,7 @@ body {
 .logo {
     position: fixed;
     top: 1.5vh;
-    left: 2vw;
+    left: 4vw;
     height: 8vh;
     width: 8vw;
 }
@@ -81,7 +82,7 @@ body {
 
 .powercontainer {
     display: block;
-    border: solid 2px #4c4c4c;
+    border: solid 2px black;
     border-radius: 15%;
     background: #4c4c4c;
     position: absolute;
@@ -89,12 +90,6 @@ body {
     width: 40vw;
     height: 65vh;
     left: 8vw;
-    opacity: 0.9;
-    transition: opacity 0.4s linear;
-}
-
-.powercontainer:hover {
-    opacity: 1;
 }
 
 .powertitle {
@@ -111,7 +106,7 @@ body {
 
 .powercontainer1 {
     display: block;
-    border: solid 2px #4c4c4c;
+    border: solid 2px black;
     border-radius: 15%;
     background: #4c4c4c;
     position: absolute;
@@ -119,12 +114,6 @@ body {
     width: 40vw;
     height: 65vh;
     left: 52vw;
-    opacity: 0.9;
-    transition: opacity 0.4s linear;
-}
-
-.powercontainer1:hover {
-    opacity: 1;
 }
 
 .powertitle1 {
